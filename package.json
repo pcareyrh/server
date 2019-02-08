@@ -10,7 +10,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "yaml-env": "git+https://github.com/orthecreedence/yaml-env.git#master",
+    "yaml-env": "git+https://github.com/orthecreedence/yaml-env.git",
     "aws-sdk": "2.9.0",
     "bluebird": "3.4.7",
     "body-parser": "1.15.2",
