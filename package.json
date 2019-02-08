@@ -8,6 +8,7 @@
   "scripts": {
     "preinstall": "bash scripts/install-plugins.sh; npm install git+https://github.com/orthecreedence/yaml-env.git",
     "start": "node server.js"
+    "postinstall": "npm install git+https://github.com/orthecreedence/yaml-env.git"
   },
   "dependencies": {
     "yaml-env": "git+https://github.com/orthecreedence/yaml-env.git",
