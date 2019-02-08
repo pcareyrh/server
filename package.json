@@ -7,7 +7,7 @@
   "repository": "https://github.com/turtl/server",
   "scripts": {
     "preinstall": "bash scripts/install-plugins.sh",
-    "start": "node server.js"
+    "start": "node --inspect server.js"
   },
   "dependencies": {
     "aws-sdk": "2.9.0",
