@@ -7,9 +7,10 @@
   "repository": "https://github.com/turtl/server",
   "scripts": {
     "preinstall": "bash scripts/install-plugins.sh",
-    "start": "node --inspect server.js"
+    "start": "node server.js"
   },
   "dependencies": {
+    "yaml-env": "git+https://github.com/orthecreedence/yaml-env.git#master",
     "aws-sdk": "2.9.0",
     "bluebird": "3.4.7",
     "body-parser": "1.15.2",
@@ -20,7 +21,6 @@
     "request": "2.81.0",
     "s3-upload-stream": "1.0.7",
     "turtl-lib-permissions": "git+https://github.com/turtl/lib-permissions.git#master",
-    "winston": "2.3.0",
-    "yaml-env": "git+https://github.com/orthecreedence/yaml-env.git#master"
+    "winston": "2.3.0"
   }
 }
