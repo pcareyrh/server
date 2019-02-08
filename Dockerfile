@@ -6,7 +6,7 @@ RUN apt-get -y install nodejs
 EXPOSE 8181
 WORKDIR /app
 COPY package.json .
-RUN npm install --production
+RUN npm install -g --production
 COPY scripts scripts
 ARG TURTL_SERVER_PLUGIN_REPO
 ARG TURTL_SERVER_PLUGIN_LOCATION
