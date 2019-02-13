@@ -2,7 +2,6 @@
 node_modules
 npm-debug.log
 /sess.vim
-/plugins
 *.un~
 /play
 *.stackdump
